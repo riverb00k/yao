@@ -3,4 +3,7 @@
     <string name="title_home">メモをする</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-</resources>
+
+    <string name="bt_add">メモを追加する</string> //ボタンに表示する文字列の追加
+    <string name="bt_view">メモを閲覧する</string> //ボタンに表示する文字列の追加
+ </resources>
