@@ -2,11 +2,16 @@
     <string name="app_name">yao</string>
     <string name="title_home">メモをする</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">くすり</string>
 
     //メモをするの画面
     <string name="bt_add">メモを追加する</string>
     <string name="bt_view">メモを閲覧する</string>
+
+
+    //くすりの画面
+    <string name="kusuribtn_add">くすりを追加する</string>
+    <string name="kusuribtn_view">くすりを閲覧する</string>
 
 
 </resources>
