@@ -13,5 +13,23 @@
     <string name="kusuribtn_add">くすりを追加する</string>
     <string name="kusuribtn_view">くすりを閲覧する</string>
 
+    //くすりを追加するの画面
+    <string name="kusuribtn_back">＜</string>
+    <string name="kusuritext_title">くすりを追加する</string>
+    <string name="kusuritext_name">名前</string>
+    <string name="kusuritext_dosage">一度に服用する量</string>
+    <string name="kusuritext_timing">飲むタイミング</string>
+    <string name="kusuritext_time">服用時刻</string>
+    <string name="kusuritext_sense">服用間隔</string>
+    <string name="kusuritext_stsrt">服用開始日</string>
+    <string name="kusuritext_end">服用終了日</string>
+    <string name="kusuritext_remarks">備考</string>
+    <string name="kusuritext_image">画像</string>
+    <string name="kusuribtn_register">追加</string>
+    <string name="hintlabel">　</string>
+    <string name="hint">プレトニン</string>
+    <string name="btnhintlabel">戻る</string>
+
+
 
 </resources>

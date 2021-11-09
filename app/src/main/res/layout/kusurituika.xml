@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kusuritamingedittext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/kusuriimagetext"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_image"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuriremarksedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuriremarksedittext" />
+
+        <TextView
+            android:id="@+id/kusuriremarkstext"
+            android:layout_width="40dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_remarks"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuriendedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuriendedittext" />
+
+        <EditText
+            android:id="@+id/kusuriremarksedittext"
+            android:layout_width="272dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_remarks"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/kusuriremarkstext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuriremarkstext" />
+
+        <EditText
+            android:id="@+id/kusuriendedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_end"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuriendtext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuriendtext" />
+
+        <TextView
+            android:id="@+id/kusuriendtext"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_end"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuristsrtedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuristsrtedittext" />
+
+        <EditText
+            android:id="@+id/kusuristsrtedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_stsrt"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuristarttext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuristarttext" />
+
+        <TextView
+            android:id="@+id/kusuristarttext"
+            android:layout_width="100dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_stsrt"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusurisenseedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusurisenseedittext" />
+
+        <EditText
+            android:id="@+id/kusurisenseedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_sense"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusurisensetext"
+            app:layout_constraintTop_toBottomOf="@+id/kusurisensetext" />
+
+        <TextView
+            android:id="@+id/kusurisensetext"
+            android:layout_width="80dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_sense"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuritimeedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuritimeedittext" />
+
+        <EditText
+            android:id="@+id/kusuritimeedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_time"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuritimetext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuritimetext" />
+
+        <TextView
+            android:id="@+id/kusuritimetext"
+            android:layout_width="80dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_time"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuritimingedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuritimingedittext" />
+
+        <TextView
+            android:id="@+id/kusurituikatitletext"
+            android:layout_width="270dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/kusuritext_title"
+            android:textSize="30sp"
+            app:layout_constraintStart_toEndOf="@+id/kusuribackbtn"
+            app:layout_constraintTop_toTopOf="@+id/kusuribackbtn" />
+
+        <TextView
+            android:id="@+id/kusuridosagetext"
+            android:layout_width="160dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_dosage"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusurinameedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusurinameedittext" />
+
+        <EditText
+            android:id="@+id/kusuriddosageedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_dosage"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuridosagetext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuridosagetext" />
+
+        <EditText
+            android:id="@+id/kusuritimingedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_timing"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuritiminmgtext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuritiminmgtext" />
+
+        <Button
+            android:id="@+id/kusuribackbtn"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/actionModeCloseDrawable"
+            android:hint="@string/btnhintlabel"
+            app:backgroundTint="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/kusurinametext"
+            android:layout_width="40dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_name"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kusuribackbtn" />
+
+        <TextView
+            android:id="@+id/kusuritiminmgtext"
+            android:layout_width="140dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/kusuritext_timing"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusuriddosageedittext"
+            app:layout_constraintTop_toBottomOf="@+id/kusuriddosageedittext" />
+
+        <EditText
+            android:id="@+id/kusurinameedittext"
+            android:layout_width="272dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/kusuritext_name"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/kusurinametext"
+            app:layout_constraintTop_toBottomOf="@+id/kusurinametext" />
+
+        <Button
+            android:id="@+id/kusuriregisterbtn"
+            android:layout_width="132dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginRight="115dp"
+            android:hint="@string/hintlabel"
+            android:text="@string/kusuribtn_register"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kusuriremarksedittext" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
