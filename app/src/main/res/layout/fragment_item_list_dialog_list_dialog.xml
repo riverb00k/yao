@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemListDialogFragment">
+
+    <ScrollView
+        android:id="@+id/kusurieturannscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kusurieturanntitletext"
+                android:layout_width="270dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/kusuritext_browsing"
+                android:textSize="30sp"
+                app:layout_constraintStart_toEndOf="@+id/kusuribackbtn2"
+                app:layout_constraintTop_toTopOf="@+id/kusuribackbtn2" />
+
+            <Button
+                android:id="@+id/kusuribackbtn2"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="?attr/actionModeCloseDrawable"
+                android:hint="@string/kusuribtn_back"
+                app:backgroundTint="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ListView
+                android:id="@+id/kusurieturannlistview"
+                android:layout_width="404dp"
+                android:layout_height="779dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kusurieturanntitletext"
+                tools:context=".ItemListDialogFragment"
+                tools:listitem="@layout/row_kusurieturann">
+
+            </ListView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
