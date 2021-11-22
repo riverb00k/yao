@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.websarva.wings.android.yao.R
 import com.websarva.wings.android.yao.databinding.FragmentNotificationsBinding
 
@@ -30,6 +31,14 @@ class NotificationsFragment : Fragment() {
 
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        binding.kusurituikabtn.setOnClickListener{
+            findNavController().navigate(R.id.action_navigation_notifications_to_kusuriaddFragment)
+        }
+
+        binding.kusurieturannbtn.setOnClickListener{
+            findNavController().navigate(R.id.action_navigation_notifications_to_itemListDialogFragment)
+        }
 
         /*val textView: TextView = binding.kusurieturannbtn*/
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
