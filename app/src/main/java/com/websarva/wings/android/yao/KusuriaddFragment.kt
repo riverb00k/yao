@@ -37,9 +37,9 @@ class KusuriaddFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_kusuriadd, container, false)
 
+        _binding = FragmentKusuriaddBinding.inflate(inflater, container, false)
+        val root: View = binding.root
 
         binding.kusuriregisterbtn.setOnClickListener{
             findNavController().navigate(R.id.action_kusuriaddFragment_to_itemListDialogFragment)
@@ -48,6 +48,9 @@ class KusuriaddFragment : Fragment() {
         binding.kusuribackbtn.setOnClickListener{
             findNavController().navigate(R.id.action_kusuriaddFragment_to_navigation_notifications)
         }
+        // Inflate the layout for this fragment
+        return root
+
     }
 
     companion object {

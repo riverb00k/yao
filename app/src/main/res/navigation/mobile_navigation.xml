@@ -27,10 +27,6 @@
             android:id="@+id/action_navigation_notifications_to_itemListDialogFragment"
             app:destination="@id/itemListDialogFragment" />
     </fragment>
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.websarva.wings.android.yao.MainActivity"
-        android:label="MainActivity" />
     <dialog
         android:id="@+id/itemListDialogFragment"
         android:name="com.websarva.wings.android.yao.ItemListDialogFragment"
@@ -39,6 +35,9 @@
         <action
             android:id="@+id/action_itemListDialogFragment_to_kusuriaddFragment"
             app:destination="@id/kusuriaddFragment" />
+        <action
+            android:id="@+id/action_itemListDialogFragment_to_navigation_notifications"
+            app:destination="@id/navigation_notifications" />
     </dialog>
     <fragment
         android:id="@+id/kusuriaddFragment"
@@ -61,4 +60,13 @@
             android:id="@+id/action_kusurimemoFragment_to_navigation_home"
             app:destination="@id/navigation_home" />
     </fragment>
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.websarva.wings.android.yao.ui.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.websarva.wings.android.yao.MainActivity"
+        android:label="MainActivity" />
 </navigation>

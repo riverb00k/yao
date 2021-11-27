@@ -39,11 +39,13 @@ class Kusuribrowsingfragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.row_kusurieturann, container, false)
+        //return inflater.inflate(R.layout.row_kusurieturann, container, false)
 
         binding.kusurieditbtn.setOnClickListener{
             findNavController().navigate(R.id.action_itemListDialogFragment_to_kusuriaddFragment)
         }
+        val root: View = binding.root
+        return root
     }
 
     companion object {

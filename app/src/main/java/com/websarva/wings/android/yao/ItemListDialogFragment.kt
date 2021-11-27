@@ -37,13 +37,13 @@ class ItemListDialogFragment : BottomSheetDialogFragment() {
     ): View? {
 
         _binding = FragmentItemListDialogListDialogBinding.inflate(inflater, container, false)
-        return binding.root
-
 
         binding.kusuribackbtn2.setOnClickListener{
 
-            findNavController().navigate(R.id.action_navigation_notifications_to_itemListDialogFragment)
+            findNavController().navigate(R.id.action_itemListDialogFragment_to_navigation_notifications)
         }
+
+        return binding.root
 
     }
 
