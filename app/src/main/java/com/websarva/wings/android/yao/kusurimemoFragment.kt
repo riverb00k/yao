@@ -23,7 +23,7 @@ class kusurimemoFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_kusurimemo, container, false)
+        //return inflater.inflate(R.layout.fragment_kusurimemo, container, false)
 
         _binding = FragmentKusurimemoBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -31,5 +31,6 @@ class kusurimemoFragment : Fragment() {
         binding.memobackbtn.setOnClickListener{
             findNavController().navigate(R.id.action_kusurimemoFragment_to_navigation_home)
         }
+        return root
     }
 }

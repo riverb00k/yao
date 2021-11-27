@@ -40,10 +40,6 @@ class NotificationsFragment : Fragment() {
             findNavController().navigate(R.id.action_navigation_notifications_to_itemListDialogFragment)
         }
 
-        /*val textView: TextView = binding.kusurieturannbtn*/
-        notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
-            /*textView.text = it*/
-        })
         return root
     }
 
