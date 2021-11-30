@@ -3,20 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/activity_main.xml" value="0.12" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_item_list_dialog_list_dialog_item.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_kusuriadd.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_kusuribrowsingfragment.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_kusurimemo.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_notifications.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/fragment_schedul_edit.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/kusurituika.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/layout/row_kusurieturann.xml" value="0.1" />
-        <entry key="..\:/Users/01080/AndroidStudioProjects/Yao/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/yao/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1175925925925926" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1175925925925926" />
+        <entry key="app/src/main/res/drawable/ic_kiroku.xml" value="0.1287037037037037" />
+        <entry key="app/src/main/res/drawable/ic_kusuri.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/ic_kusuri_0.xml" value="0.16666666666666666" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/drawable/ic_memo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_memo_black_24dp.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/drawable/ic_newitem_black_24dp.xml" value="0.14166666666666666" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.15579710144927536" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/fragment_kusuriadd.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_kusurieturann.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21388888888888888" />
       </map>
     </option>
   </component>
