@@ -35,6 +35,9 @@ class HomeFragment : Fragment() {
         binding.btView.setOnClickListener{
             findNavController().navigate(R.id.action_navigation_home_to_kusurimemoFragment)
         }
+        binding.btAdd.setOnClickListener{
+            findNavController().navigate(R.id.action_navigation_home_to_memoaddFragment)
+        }
 
 
         /*binding.btAdd.setOnClickListener{

@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_navigation_home_to_kusurimemoFragment"
             app:destination="@id/kusurimemoFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_memoaddFragment"
+            app:destination="@id/memoaddFragment" />
     </fragment>
 
     <fragment
@@ -63,10 +66,22 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.websarva.wings.android.yao.ui.dashboard.DashboardFragment"
-        android:label="fragment_dashboard"
+        android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
     <activity
         android:id="@+id/mainActivity"
         android:name="com.websarva.wings.android.yao.MainActivity"
         android:label="MainActivity" />
+    <fragment
+        android:id="@+id/memoaddFragment"
+        android:name="com.websarva.wings.android.yao.MemoaddFragment"
+        android:label="fragment_memoadd"
+        tools:layout="@layout/fragment_memoadd" >
+        <action
+            android:id="@+id/action_memoaddFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_memoaddFragment_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
 </navigation>
