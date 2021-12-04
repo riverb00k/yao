@@ -13,6 +13,8 @@
         android:layout_marginStart="130dp"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="146dp"
+        android:background="@drawable/button_shape3"
+        app:backgroundTint="@color/ao"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
