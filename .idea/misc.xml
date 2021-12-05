@@ -31,11 +31,11 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2851985559566787" />
-        <entry key="app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_kusuriadd.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_kusurimemo.xml" value="0.23324275362318841" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/row_kusurieturann.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_kusurieturann.xml" value="0.335" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
