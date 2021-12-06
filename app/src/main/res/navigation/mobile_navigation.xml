@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_dashboard">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -33,7 +33,7 @@
     <dialog
         android:id="@+id/itemListDialogFragment"
         android:name="com.websarva.wings.android.yao.ItemListDialogFragment"
-        android:label="fragment_item_list_dialog_list_dialog"
+
         tools:layout="@layout/fragment_item_list_dialog_list_dialog" >
         <action
             android:id="@+id/action_itemListDialogFragment_to_kusuriaddFragment"
@@ -45,7 +45,7 @@
     <fragment
         android:id="@+id/kusuriaddFragment"
         android:name="com.websarva.wings.android.yao.KusuriaddFragment"
-        android:label="fragment_kusuriadd"
+
         tools:layout="@layout/fragment_kusuriadd" >
         <action
             android:id="@+id/action_kusuriaddFragment_to_itemListDialogFragment"
@@ -57,7 +57,7 @@
     <fragment
         android:id="@+id/kusurimemoFragment"
         android:name="com.websarva.wings.android.yao.kusurimemoFragment"
-        android:label="fragment_kusurimemo"
+
         tools:layout="@layout/fragment_kusurimemo" >
         <action
             android:id="@+id/action_kusurimemoFragment_to_navigation_home"
@@ -71,11 +71,11 @@
     <activity
         android:id="@+id/mainActivity"
         android:name="com.websarva.wings.android.yao.MainActivity"
-        android:label="MainActivity" />
+         />
     <fragment
         android:id="@+id/memoaddFragment"
         android:name="com.websarva.wings.android.yao.MemoaddFragment"
-        android:label="fragment_memoadd"
+
         tools:layout="@layout/fragment_memoadd" >
         <action
             android:id="@+id/action_memoaddFragment_to_navigation_home"
