@@ -239,6 +239,7 @@
                 android:hint="@string/hintlabel"
                 android:text="追加"
                 android:textSize="20sp"
+                android:background="@drawable/butoon_shape1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.489"
