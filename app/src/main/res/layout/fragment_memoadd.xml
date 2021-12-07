@@ -4,18 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MemoaddFragment">
+    tools:context=".MemoaddFragment"
+    android:background="@color/orenzi2"> <!--背景色を指定-->
+
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
 
         <TextView
             android:id="@+id/memoaddtextview"
             android:layout_width="270dp"
             android:layout_height="49dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/white"
             android:text="@string/bt_add"
             android:textSize="30sp"
             app:layout_constraintEnd_toStartOf="@+id/memobackbtn2"
@@ -36,9 +41,10 @@
 
         <EditText
             android:id="@+id/memoedittext"
-            android:layout_width="320dp"
-            android:layout_height="400dp"
-            android:layout_marginTop="12dp"
+            android:layout_width="364dp"
+            android:layout_height="507dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/white"
             android:ems="10"
             android:hint="@string/memotext_hint"
             android:inputType="textPersonName"
@@ -51,11 +57,12 @@
             android:id="@+id/memoaddbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:text="@string/kusuribtn_register"
+            android:layout_marginTop="12dp"
             android:background="@drawable/button_shape2"
+            android:text="@string/kusuribtn_register"
             app:backgroundTint="@color/orenzi"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/memoedittext" />
     </androidx.constraintlayout.widget.ConstraintLayout>
