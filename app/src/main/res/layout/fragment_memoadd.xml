@@ -53,6 +53,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="@string/kusuribtn_register"
+            android:background="@drawable/button_shape2"
+            app:backgroundTint="@color/orenzi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/memoedittext" />
