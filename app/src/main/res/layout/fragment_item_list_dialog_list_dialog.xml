@@ -5,7 +5,8 @@
     android:id="@+id/uenoyatu2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ItemListDialogFragment">
+    tools:context=".ItemListDialogFragment"
+    android:background="@color/murasaki2"> <!--背景色を指定-->
 
     <ScrollView
         android:id="@+id/kusurieturannscrollview"
@@ -23,8 +24,11 @@
                 android:layout_height="49dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
+                android:background="@color/white"
                 android:text="@string/kusuritext_browsing"
+                android:textAllCaps="true"
                 android:textSize="30sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/kusuribackbtn2"
                 app:layout_constraintTop_toTopOf="@+id/kusuribackbtn2" />
 
