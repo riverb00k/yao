@@ -22,7 +22,9 @@
             android:layout_marginRight="12dp"
             android:background="@color/white"
             android:text="@string/bt_add"
+            android:textAllCaps="true"
             android:textSize="30sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/memobackbtn2"
             app:layout_constraintTop_toTopOf="@+id/memobackbtn2" />
 
@@ -55,11 +57,14 @@
 
         <Button
             android:id="@+id/memoaddbutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/button_shape2"
             android:text="@string/kusuribtn_register"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
             app:backgroundTint="@color/orenzi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

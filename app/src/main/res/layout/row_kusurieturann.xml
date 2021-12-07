@@ -29,6 +29,9 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/butoon_shape1"
         android:text="@string/kusuritext_edit"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/kusurieturanntext"
         app:layout_constraintTop_toTopOf="@+id/kusurieturanntext" />
 </androidx.constraintlayout.widget.ConstraintLayout>
