@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.websarva.wings.android.yao">
+
+
 
     <application
         android:allowBackup="true"
@@ -19,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--<provider
+            android:name="com.websarva.wings.android.yao.ui.dashboard.DashboardFragment"
+            android:authorities="com.websarva.wings.android.yao.ui.dashboard.DashboardFragment"
+            android:exported="false" />-->
     </application>
 
 </manifest>

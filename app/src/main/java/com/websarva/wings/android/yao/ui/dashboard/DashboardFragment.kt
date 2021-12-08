@@ -1,9 +1,11 @@
 package com.websarva.wings.android.yao.ui.dashboard
 
 import android.os.Bundle
+import android.content.ContentProvider
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.CalendarView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -32,7 +34,19 @@ class DashboardFragment : Fragment() {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        setContentView(R.layout.fragment_dashboard)
+        val calendar = findViewById<CalendarView>(R.id.calendar)
+
         return root
+    }
+
+    private fun <T> findViewById(calendar: Int){
+
+
+    }
+
+    private fun setContentView(activityCalendarview: Any) {
+
     }
 
     override fun onDestroyView() {
