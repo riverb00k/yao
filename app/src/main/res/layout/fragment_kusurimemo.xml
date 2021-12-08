@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kusurimemoFragment">
+    tools:context=".kusurimemoFragment"
+    android:background="@color/orenzi2"> <!--背景色を指定-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,8 +30,11 @@
             android:layout_height="49dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
+            android:background="@color/white"
             android:text="@string/bt_view"
+            android:textAllCaps="true"
             android:textSize="30sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/memobackbtn"
             app:layout_constraintTop_toTopOf="@+id/memobackbtn" />
 

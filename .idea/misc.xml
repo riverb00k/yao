@@ -21,6 +21,8 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/yao/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1425925925925926" />
         <entry key="app/src/main/res/drawable/actionbar_background.xml" value="0.12685185185185185" />
+        <entry key="app/src/main/res/drawable/bottom_navigation_colors.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/drawable/bottom_navigation_item_state.xml" value="0.14444444444444443" />
         <entry key="app/src/main/res/drawable/butoon_shape1.xml" value="0.21388888888888888" />
         <entry key="app/src/main/res/drawable/button_shape.xml" value="0.26851851851851855" />
         <entry key="app/src/main/res/drawable/button_shape1.xml" value="0.21388888888888888" />
@@ -30,17 +32,21 @@
         <entry key="app/src/main/res/drawable/button_style1.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/drawable/ic_kiroku.xml" value="0.1425925925925926" />
         <entry key="app/src/main/res/drawable/ic_kusuri.xml" value="0.1425925925925926" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2994791666666667" />
         <entry key="app/src/main/res/drawable/ic_memo.xml" value="0.15" />
         <entry key="app/src/main/res/layout-v21/activity_main.xml" value="0.20199275362318841" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30193905817174516" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_item_list_dialog_list_dialog.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_kusuriadd.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_kusurimemo.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_kusurimemo.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_memoadd.xml" value="0.26490066225165565" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.18005540166204986" />
         <entry key="app/src/main/res/layout/row_kusurieturann.xml" value="0.335" />
-        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2869791666666667" />
       </map>
     </option>
   </component>
