@@ -12,7 +12,7 @@
         android:layout_width="411dp"
         android:layout_height="100dp"
         android:background="?android:attr/windowBackground"
-        app:itemIconSize="50dp"
+        app:itemIconSize="43dp"
         app:itemIconTint="@drawable/bottom_navigation_colors"
         app:itemTextColor="@drawable/bottom_navigation_colors"
         app:layout_constraintBottom_toBottomOf="parent"
