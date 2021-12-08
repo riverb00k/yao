@@ -40,14 +40,7 @@ class DashboardFragment : Fragment() {
         return root
     }
 
-    private fun <T> findViewById(calendar: Int){
 
-
-    }
-
-    private fun setContentView(activityCalendarview: Any) {
-
-    }
 
     override fun onDestroyView() {
         super.onDestroyView()
