@@ -6,8 +6,8 @@
     <dimen name="list_item_spacing_half">8dp</dimen>
     <dimen name="text_margin">16dp</dimen>
 
-    <dimen name="title_home">100dp</dimen>
-    <dimen name="title_dashboard">100dp</dimen>
-    <dimen name="itle_notifications">100dp</dimen>
+    <dimen name="title_home">56dp</dimen>
+    <dimen name="title_dashboard">56dp</dimen>
+    <dimen name="itle_notifications">56dp</dimen>
 
 </resources>
