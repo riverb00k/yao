@@ -43,23 +43,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //ステータスバーとナビゲーションバーを非表示にする処理
-    //スクロールすると半透明で表示される
-    override fun onStart() {
-        super.onStart()
-        hideSystemUI()
-    }
-
-    fun hideSystemUI() {
-        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
-                or View.SYSTEM_UI_FLAG_FULLSCREEN
-                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN)
-    }
-
-    override fun onWindowFocusChanged(hasFocus: Boolean) {
-        super.onWindowFocusChanged(hasFocus)
-        if (hasFocus) hideSystemUI()
-    }
 }

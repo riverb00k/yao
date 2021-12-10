@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">yao</string>
-    <string name="title_home">メモをする</string>
-    <string name="title_dashboard">記録する</string>
-    <string name="title_notifications">くすり</string>
+    <string name="textView">メモをする</string>>
+    <string name="textView3">記録する</string>
+    <string name="textView4">くすり</string>
 
     //メモをするの画面
     <string name="bt_add">メモを追加する</string>
@@ -44,6 +44,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 
 </resources>
